@@ -19,15 +19,24 @@ const routes = [
     children: [
       {
         path: 'films',
-        component: Films
+        component: Films,
+        meta: {
+          tabId: 1
+        }
       },
       {
         path: 'cinemas',
-        component: Cinemas
+        component: Cinemas,
+        meta: {
+          tabId: 2
+        }
       },
       {
         path: 'center',
-        component: Center
+        component: Center,
+        meta: {
+          tabId: 4
+        }
       },
       {
         path: '',
